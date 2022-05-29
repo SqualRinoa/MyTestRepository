@@ -7,7 +7,7 @@ exec &> /etc/motd
     if [ $HOUR -lt 12  -a $HOUR -ge 0 ]; then TIME="morning"
     elif [ $HOUR -lt 17 -a $HOUR -ge 12 ]; then TIME="afternoon"
     else TIME="evening"
-    fi
+    fi vfdgergsdvs
     #
     # System uptime
     uptime=`cat /proc/uptime | cut -f1 -d.`
