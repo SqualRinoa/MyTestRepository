@@ -23,9 +23,9 @@
     NUM_PROCS=`ps aux | wc -l`
     IPADDRESS=`hostname --all-ip-addresses`
     #
-    echo  "================================================================="
+    echo  "======================================================================"
     echo  " Good $TIME !                              NETOLOY Corp Ltd."
-    echo  "================================================================="
+    echo  "======================================================================"
     echo  " - Hostname      : `hostname -f`"
     echo  " - IP Address    : $IPADDRESS"
     echo  " - Release       : $(lsb_release -s -d)[$(cat /etc/debian_version)]"
